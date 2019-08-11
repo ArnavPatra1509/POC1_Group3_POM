@@ -55,6 +55,8 @@ public class html_pageTest {
   {
 	  h=new html_page(dr);
 	  String anop=h.verify_search_product();
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//html/body/table[5]/tbody/tr/td[1]/form/table[1]/tbody/tr/th")));
 	  String enop="Search Products";
 	  String result="";
 	  Assert.assertEquals(anop, enop);
@@ -66,6 +68,8 @@ public class html_pageTest {
   {
 	  h=new html_page(dr);
 	  String anop=h.verify_catagory();
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/table[5]/tbody/tr/td[1]/table[1]/tbody/tr/th")));
 	  String enop="Categories";
 	  String result="";
 	  Assert.assertEquals(anop, enop);
@@ -91,7 +95,8 @@ public class html_pageTest {
   public void f1() {
 	  h=new html_page(dr);
 	  e_product=h.verify_product();
-
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td/b")));
 	  String anop=e_product.get(0);
 	  String enop=a_product.get(0);
 	  String result="";
@@ -103,7 +108,8 @@ public class html_pageTest {
   public void f2() {
 	  h=new html_page(dr);
 	  e_product=h.verify_product();
-
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td/b")));
 	  String anop=e_product.get(1);
 	  String enop=a_product.get(1);
 	  String result="";
@@ -116,7 +122,8 @@ public class html_pageTest {
   public void f3() {
 	  h=new html_page(dr);
 	  e_product=h.verify_product();
-
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td/b")));
 	  String anop=e_product.get(2);
 	  String enop=a_product.get(2);
 	  String result="";
@@ -128,7 +135,8 @@ public class html_pageTest {
   public void f4() {
 	  h=new html_page(dr);
 	  e_product=h.verify_product();
-
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td/b")));
 	  String anop=e_product.get(3);
 	  String enop=a_product.get(3);
 	  String result="";
@@ -140,7 +148,9 @@ public class html_pageTest {
   public void f5() {
 	  h=new html_page(dr);
 	  e_price=h.verify_price();
-
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td[2]")));
+	  
 	  String anop=e_price.get(0);
 	  String enop=a_price.get(0);
 	  String result="";
@@ -152,7 +162,9 @@ public class html_pageTest {
   public void f6() {
 	  h=new html_page(dr);
 	  e_price=h.verify_price();
-
+	  
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td[2]")));
 	  String anop=e_price.get(1);
 	  String enop=a_price.get(1);
 	  String result="";
@@ -164,7 +176,9 @@ public class html_pageTest {
   public void f7() {
 	  h=new html_page(dr);
 	  e_price=h.verify_price();
-
+	  
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td[2]")));
 	  String anop=e_price.get(2);
 	  String enop=a_price.get(2);
 	  String result="";
@@ -176,7 +190,9 @@ public class html_pageTest {
   public void f8() {
 	  h=new html_page(dr);
 	  e_price=h.verify_price();
-
+	  
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td[2]")));
 	  String anop=e_price.get(3);
 	  String enop=a_price.get(3);
 	  String result="";
