@@ -6,6 +6,8 @@ import java.util.Iterator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -52,6 +54,8 @@ public class dataprovider {
   {
 	  h=new html_page(dr);
 	  dr.findElement(By.xpath("/html/body/table[2]/tbody/tr/td/a[1]")).click();
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//html/body/table[5]/tbody/tr/td[1]/form/table[1]/tbody/tr/th")));
 	  String anop=h.verify_search_product();
 	  String enop="Search Products";
 	  String result="";
@@ -64,6 +68,9 @@ public class dataprovider {
   {
 	  h=new html_page(dr);
 	  String anop=h.verify_catagory();
+	  
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/table[5]/tbody/tr/td[1]/table[1]/tbody/tr/th")));
 	  String enop="Categories";
 	  String result="";
 	  Assert.assertEquals(anop, enop);
@@ -88,6 +95,9 @@ public class dataprovider {
 	  
 	  h=new html_page(dr);
 	  String enop=a_product.get(i);
+	  
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td/b")));
 	  String result="";
 	  Assert.assertEquals(anop, enop);
 	  result="PASS";
@@ -107,6 +117,9 @@ public class dataprovider {
 	  
 	  h=new html_page(dr);
 	  String enop=a_price.get(j);
+	  
+	  WebDriverWait wt = new WebDriverWait(dr,10);                             
+	  wt.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='Row']/td[2]")));
 	  String result="";
 	  Assert.assertEquals(anop, enop);
 	  result="PASS";
