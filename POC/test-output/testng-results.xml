@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17215" started-at="2019-08-11T10:55:51Z" finished-at="2019-08-11T10:56:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17215" started-at="2019-08-11T10:55:51Z" finished-at="2019-08-11T10:56:08Z">
+      <class name="pages.html_pageTest1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pages.html_pageTest1@27efef64]" name="beforeMethod" is-config="true" duration-ms="14114" started-at="2019-08-11T10:55:51Z" finished-at="2019-08-11T10:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a(java.lang.String)[pri:0, instance:pages.html_pageTest1@27efef64]" name="a" duration-ms="20" started-at="2019-08-11T10:56:05Z" data-provider="product" finished-at="2019-08-11T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Flash 4 Magic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="a(java.lang.String)[pri:0, instance:pages.html_pageTest1@27efef64]" name="a" duration-ms="4" started-at="2019-08-11T10:56:05Z" data-provider="product" finished-at="2019-08-11T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Web Design in a Nutshell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="a(java.lang.String)[pri:0, instance:pages.html_pageTest1@27efef64]" name="a" duration-ms="4" started-at="2019-08-11T10:56:05Z" data-provider="product" finished-at="2019-08-11T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HTML 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="a(java.lang.String)[pri:0, instance:pages.html_pageTest1@27efef64]" name="a" duration-ms="4" started-at="2019-08-11T10:56:05Z" data-provider="product" finished-at="2019-08-11T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001 Web Site Tips and Tricks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b(java.lang.String)[pri:0, instance:pages.html_pageTest1@27efef64]" name="b" duration-ms="4" started-at="2019-08-11T10:56:05Z" data-provider="price" finished-at="2019-08-11T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$36.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="b(java.lang.String)[pri:0, instance:pages.html_pageTest1@27efef64]" name="b" duration-ms="0" started-at="2019-08-11T10:56:05Z" data-provider="price" finished-at="2019-08-11T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$23.96]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="b(java.lang.String)[pri:0, instance:pages.html_pageTest1@27efef64]" name="b" duration-ms="0" started-at="2019-08-11T10:56:05Z" data-provider="price" finished-at="2019-08-11T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$15.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="s()[pri:0, instance:pages.html_pageTest1@27efef64]" name="s" duration-ms="703" started-at="2019-08-11T10:56:05Z" finished-at="2019-08-11T10:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s -->
+        <test-method status="PASS" signature="b(java.lang.String)[pri:0, instance:pages.html_pageTest1@27efef64]" name="b" duration-ms="0" started-at="2019-08-11T10:56:05Z" data-provider="price" finished-at="2019-08-11T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$39.95]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="s1()[pri:1, instance:pages.html_pageTest1@27efef64]" name="s1" duration-ms="48" started-at="2019-08-11T10:56:06Z" finished-at="2019-08-11T10:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s1 -->
+        <test-method status="PASS" signature="f()[pri:2, instance:pages.html_pageTest1@27efef64]" name="f" duration-ms="675" started-at="2019-08-11T10:56:06Z" finished-at="2019-08-11T10:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pages.html_pageTest1@27efef64]" name="afterMethod" is-config="true" duration-ms="1247" started-at="2019-08-11T10:56:07Z" finished-at="2019-08-11T10:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- pages.html_pageTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
