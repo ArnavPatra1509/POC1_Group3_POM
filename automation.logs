@@ -1,0 +1,44 @@
+11/08/2019 15:26:23 devpinoyLogger Method verify_search_product executed 
+Expected Result: Search Products
+ Actual Result: Search Products
+ Test Result: PASS
+11/08/2019 15:26:23 devpinoyLogger Method verify_category executed 
+Expected Result: Categories
+ Actual Result: Categories
+ Test Result: PASS
+11/08/2019 15:26:25 devpinoyLogger Method verify_no_of_product executed 
+Expected Result: 4
+ Actual Result: 4
+ Test Result: PASS
+11/08/2019 15:26:25 devpinoyLogger Method verify_products executed 
+Expected Result: Flash 4 Magic
+ Actual Result: Flash 4 Magic
+ Test Result: PASS
+11/08/2019 15:26:25 devpinoyLogger Method verify_product executed 
+Expected Result: Web Design in a Nutshell
+ Actual Result: Web Design in a Nutshell
+ Test Result: PASS
+11/08/2019 15:26:25 devpinoyLogger Method verify_product executed 
+Expected Result: HTML 4
+ Actual Result: HTML 4
+ Test Result: PASS
+11/08/2019 15:26:25 devpinoyLogger Method verify_product executed 
+Expected Result: 1001 Web Site Tips and Tricks
+ Actual Result: 1001 Web Site Tips and Tricks
+ Test Result: PASS
+11/08/2019 15:26:25 devpinoyLogger Method verify_price executed 
+Expected Result: $36.00
+ Actual Result: $36.00
+ Test Result: PASS
+11/08/2019 15:26:26 devpinoyLogger Method verify_price executed 
+Expected Result: $23.96
+ Actual Result: $23.96
+ Test Result: PASS
+11/08/2019 15:26:26 devpinoyLogger Method verify_price executed 
+Expected Result: $15.99
+ Actual Result: $15.99
+ Test Result: PASS
+11/08/2019 15:26:26 devpinoyLogger Method verify_price executed 
+Expected Result: $39.95
+ Actual Result: $39.95
+ Test Result: PASS
